@@ -70,15 +70,16 @@ const Footer = () => {
         </ul>
       </div>
   
-      <div className={styles.addressSection}>
+       <div className={styles.addressSection}>
         <p style={{ textAlign: "left" }}><strong>Registered Office</strong></p>
-        <p style={{ textAlign: "left" }}>Sector 62 A Tower,</p>
-        <p style={{ textAlign: "left" }}>Noida, Uttar Pradesh, 201309</p>
-        <p style={{ textAlign: "left" }}>Call: 9875567897</p>
+        <p style={{ textAlign: "left" }}>Flat no 101,Parsh Chhaya Apartment, Bal Mandir Road </p>
+        <p style={{ textAlign: "left" }}>Bhimganjmandi, Kota, Rajasthan, 324002</p>
+        <p style={{ textAlign: "left" }}>Vaibhav Saxena -  +91 6376-635379 & 094133 50792</p>
+        <p style={{ textAlign: "left" }}>Ikramuddin khan - +91 94141 76392 & +91 861-9470159</p>
         <p style={{ textAlign: "left" }}>
           Email:{" "}
-          <a href="mailto:travel@trippersway.com">
-            trip@ghumoTrip.com
+          <a href="mailto:Vinayakconstructions9255@gmail.com">
+            Vinayakconstructions9255@gmail.com
           </a>
         </p>
       </div>
