@@ -109,7 +109,7 @@ export default function Home({ Component, pageProps }) {
       <div className="relative w-full h-[720px]">
         {/* Default Image (Will Fade Out) */}
         <img
-          src="/essentials/graphics/8.png"
+          src="/essentials/graphics/2.1.png"
           alt="Loading..."
           className={`absolute inset-0 w-full h-[720px] object-cover transition-opacity duration-500 ${
             isLoaded ? "opacity-0" : "opacity-100"
