@@ -24,7 +24,7 @@ export default function Login() {
 
   const handleLogin = async (e) => {
     e.preventDefault();
-    let response = await axios.get('http://localhost:3000/api/getSb')
+    let response = await axios.get('/api/getSb')
     if (userName == response.data.admins[0].username && password == response.data.admins[0].password) {
       localStorage.setItem('userVC',JSON.stringify(response.data.admins[0]))
       router.push("/vc.admin.biz/admin/dashboard");

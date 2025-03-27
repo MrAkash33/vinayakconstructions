@@ -25,7 +25,7 @@ const AdminImageModal = ({ isOpen, onClose }) => {
       const filename = `${Date.now()}-${file.name}`;
       // console.log("base64File",base64File)
       try {
-        const response = await axios.post("http://localhost:3000/api/addProject", {
+        const response = await axios.post("/api/addProject", {
           file: base64File,
           filename,
           heading,

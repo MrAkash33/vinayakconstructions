@@ -12,7 +12,7 @@ export default function VideoSection() {
     fetchData()
   },[])
   async function fetchData () {
-    let response = await axios.get('http://localhost:3000/api/getProjects')
+    let response = await axios.get('/api/getProjects')
     setProjects(response.data.projects)
   }
   return (

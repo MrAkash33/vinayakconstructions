@@ -12,7 +12,7 @@ export function UsersTab() {
     };
   
     const deleteProject = async (id) => {
-      const res = await fetch(`http://localhost:3000/api/delete/${id}`, { method: 'DELETE' });
+      const res = await fetch(`/api/delete/${id}`, { method: 'DELETE' });
       const data = await res.json();
       console.log(data);
     
@@ -27,7 +27,7 @@ export function UsersTab() {
     fetchData()
   },[])
   async function fetchData () {
-    let response = await axios.get('http://localhost:3000/api/getProjects')
+    let response = await axios.get('/api/getProjects')
     console.log("response.data.projects",response.data.projects)
     setProjects(response.data.projects)
   }

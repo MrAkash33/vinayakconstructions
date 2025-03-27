@@ -7,7 +7,7 @@ export function ContactAdmin() {
     const [contactus, setContactUs] = useState([]);
 
     const deleteProject = async (id) => {
-      const res = await fetch(`http://localhost:3000/api/delete/${id}`, { method: 'DELETE' });
+      const res = await fetch(`/api/delete/${id}`, { method: 'DELETE' });
       const data = await res.json();
       console.log(data);
     
@@ -22,7 +22,7 @@ export function ContactAdmin() {
     fetchData()
   },[])
   async function fetchData () {
-    let response = await axios.get('http://localhost:3000/api/getContact')
+    let response = await axios.get('/api/getContact')
     console.log("response.data.projects",response.data.contactus)
     setContactUs(response?.data?.contactus)
     // setProjects(response.data.projects)
