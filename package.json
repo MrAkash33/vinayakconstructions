@@ -1,0 +1,31 @@
+{
+  "name": "vinayakconstruction",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_OPTIONS='--inspect' next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@shadcn/ui": "^0.0.4",
+    "@supabase/supabase-js": "^2.49.1",
+    "axios": "^1.8.4",
+    "framer-motion": "^12.5.0",
+    "lodash": "^4.17.21",
+    "lucide-react": "^0.479.0",
+    "next": "15.1.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
+    "react-slick": "^0.30.3",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^11.2.1"
+  },
+  "devDependencies": {
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
